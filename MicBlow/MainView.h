@@ -1,6 +1,6 @@
 //
 //  MainView.h
-//  MicBlow
+//  SneezeRecorder
 //
 //  Created by Michel D'Sa on 11/30/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.

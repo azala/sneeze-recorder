@@ -18,15 +18,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2447C7AB1485F5E40077C2E6 /* MicBlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicBlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2447C7AB1485F5E40077C2E6 /* SneezeRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SneezeRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2447C7AF1485F5E40077C2E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2447C7B21485F5E40077C2E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2447C7B31485F5E40077C2E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2447C7B41485F5E40077C2E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2447C7B71485F5E40077C2E6 /* MicBlow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MicBlow-Info.plist"; sourceTree = "<group>"; };
+		2447C7B71485F5E40077C2E6 /* SneezeRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SneezeRecorder-Info.plist"; sourceTree = "<group>"; };
 		2447C7B91485F5E40077C2E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2447C7BB1485F5E40077C2E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2447C7BD1485F5E40077C2E6 /* MicBlow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MicBlow-Prefix.pch"; sourceTree = "<group>"; };
+		2447C7BD1485F5E40077C2E6 /* SneezeRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SneezeRecorder-Prefix.pch"; sourceTree = "<group>"; };
 		2447C7BF1485F5E40077C2E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2447C7C11485F5E40077C2E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2447C7C21485F5E40077C2E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		2447C7AC1485F5E40077C2E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2447C7AB1485F5E40077C2E6 /* MicBlow.app */,
+				2447C7AB1485F5E40077C2E6 /* SneezeRecorder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +102,10 @@
 		2447C7B61485F5E40077C2E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2447C7B71485F5E40077C2E6 /* MicBlow-Info.plist */,
+				2447C7B71485F5E40077C2E6 /* SneezeRecorder-Info.plist */,
 				2447C7B81485F5E40077C2E6 /* InfoPlist.strings */,
 				2447C7BB1485F5E40077C2E6 /* main.m */,
-				2447C7BD1485F5E40077C2E6 /* MicBlow-Prefix.pch */,
+				2447C7BD1485F5E40077C2E6 /* SneezeRecorder-Prefix.pch */,
 				2447C7BE1485F5E40077C2E6 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2447C7AA1485F5E40077C2E6 /* MicBlow */ = {
+		2447C7AA1485F5E40077C2E6 /* SneezeRecorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2447C7C91485F5E40077C2E6 /* Build configuration list for PBXNativeTarget "MicBlow" */;
+			buildConfigurationList = 2447C7C91485F5E40077C2E6 /* Build configuration list for PBXNativeTarget "SneezeRecorder" */;
 			buildPhases = (
 				2447C7A71485F5E40077C2E6 /* Sources */,
 				2447C7A81485F5E40077C2E6 /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = MicBlow;
+			name = SneezeRecorder;
 			productName = MicBlow;
-			productReference = 2447C7AB1485F5E40077C2E6 /* MicBlow.app */;
+			productReference = 2447C7AB1485F5E40077C2E6 /* SneezeRecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 2447C7A51485F5E40077C2E6 /* Build configuration list for PBXProject "MicBlow" */;
+			buildConfigurationList = 2447C7A51485F5E40077C2E6 /* Build configuration list for PBXProject "SneezeRecorder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2447C7AA1485F5E40077C2E6 /* MicBlow */,
+				2447C7AA1485F5E40077C2E6 /* SneezeRecorder */,
 			);
 		};
 /* End PBXProject section */
@@ -259,9 +259,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MicBlow/MicBlow-Prefix.pch";
-				INFOPLIST_FILE = "MicBlow/MicBlow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MicBlow/SneezeRecorder-Prefix.pch";
+				INFOPLIST_FILE = "MicBlow/SneezeRecorder-Info.plist";
+				PRODUCT_NAME = SneezeRecorder;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -270,9 +270,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MicBlow/MicBlow-Prefix.pch";
-				INFOPLIST_FILE = "MicBlow/MicBlow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MicBlow/SneezeRecorder-Prefix.pch";
+				INFOPLIST_FILE = "MicBlow/SneezeRecorder-Info.plist";
+				PRODUCT_NAME = SneezeRecorder;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -280,7 +280,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2447C7A51485F5E40077C2E6 /* Build configuration list for PBXProject "MicBlow" */ = {
+		2447C7A51485F5E40077C2E6 /* Build configuration list for PBXProject "SneezeRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2447C7C71485F5E40077C2E6 /* Debug */,
@@ -289,7 +289,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2447C7C91485F5E40077C2E6 /* Build configuration list for PBXNativeTarget "MicBlow" */ = {
+		2447C7C91485F5E40077C2E6 /* Build configuration list for PBXNativeTarget "SneezeRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2447C7CA1485F5E40077C2E6 /* Debug */,
