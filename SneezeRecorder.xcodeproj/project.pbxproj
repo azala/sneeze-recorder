@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2447C7B01485F5E40077C2E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2447C7AF1485F5E40077C2E6 /* Cocoa.framework */; };
-		2447C7BA1485F5E40077C2E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2447C7B81485F5E40077C2E6 /* InfoPlist.strings */; };
-		2447C7BC1485F5E40077C2E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2447C7BB1485F5E40077C2E6 /* main.m */; };
-		2447C7C01485F5E40077C2E6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2447C7BE1485F5E40077C2E6 /* Credits.rtf */; };
-		2447C7C31485F5E40077C2E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2447C7C21485F5E40077C2E6 /* AppDelegate.m */; };
-		2447C7C61485F5E40077C2E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2447C7C41485F5E40077C2E6 /* MainMenu.xib */; };
 		2447C7CD1485F6370077C2E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2447C7CC1485F6370077C2E6 /* AVFoundation.framework */; };
-		249BB02514872CA30001147E /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB02414872CA30001147E /* MainView.m */; };
+		24645C3814878A4D00A88D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24645C3514878A4D00A88D16 /* AppDelegate.m */; };
+		24645C3914878A4D00A88D16 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24645C3714878A4D00A88D16 /* MainView.m */; };
+		24645C4B14878AA000A88D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24645C4A14878AA000A88D16 /* main.m */; };
+		24645C4D14878DB000A88D16 /* main.m in Resources */ = {isa = PBXBuildFile; fileRef = 24645C4A14878AA000A88D16 /* main.m */; };
+		247D7D0414878E1000C7524D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 24645C4414878A9800A88D16 /* Credits.rtf */; };
+		247D7D0514878E1400C7524D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24645C4614878A9800A88D16 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +23,18 @@
 		2447C7B21485F5E40077C2E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2447C7B31485F5E40077C2E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2447C7B41485F5E40077C2E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2447C7B71485F5E40077C2E6 /* SneezeRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SneezeRecorder-Info.plist"; sourceTree = "<group>"; };
-		2447C7B91485F5E40077C2E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2447C7BB1485F5E40077C2E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2447C7BD1485F5E40077C2E6 /* SneezeRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SneezeRecorder-Prefix.pch"; sourceTree = "<group>"; };
-		2447C7BF1485F5E40077C2E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2447C7C11485F5E40077C2E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2447C7C21485F5E40077C2E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2447C7C51485F5E40077C2E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2447C7CC1485F6370077C2E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		249BB02314872CA30001147E /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
-		249BB02414872CA30001147E /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		24645C3414878A4D00A88D16 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SneezeRecorder/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		24645C3514878A4D00A88D16 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SneezeRecorder/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		24645C3614878A4D00A88D16 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = SneezeRecorder/MainView.h; sourceTree = SOURCE_ROOT; };
+		24645C3714878A4D00A88D16 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = SneezeRecorder/MainView.m; sourceTree = SOURCE_ROOT; };
+		24645C3B14878A5D00A88D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SneezeRecorder/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		24645C3D14878A6A00A88D16 /* SneezeRecorder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SneezeRecorder-Info.plist"; path = "SneezeRecorder/SneezeRecorder-Info.plist"; sourceTree = SOURCE_ROOT; };
+		24645C3E14878A6A00A88D16 /* SneezeRecorder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SneezeRecorder-Prefix.pch"; path = "SneezeRecorder/SneezeRecorder-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24645C4514878A9800A88D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = SneezeRecorder/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		24645C4714878A9800A88D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SneezeRecorder/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		24645C4A14878AA000A88D16 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SneezeRecorder/main.m; sourceTree = SOURCE_ROOT; };
+		247D7D0614878F7600C7524D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +53,9 @@
 		2447C7A01485F5E40077C2E6 = {
 			isa = PBXGroup;
 			children = (
+				247D7D0614878F7600C7524D /* CoreAudio.framework */,
 				2447C7CC1485F6370077C2E6 /* AVFoundation.framework */,
-				2447C7B51485F5E40077C2E6 /* MicBlow */,
+				2447C7B51485F5E40077C2E6 /* SneezeRecorder */,
 				2447C7AE1485F5E40077C2E6 /* Frameworks */,
 				2447C7AC1485F5E40077C2E6 /* Products */,
 			);
@@ -86,27 +88,28 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		2447C7B51485F5E40077C2E6 /* MicBlow */ = {
+		2447C7B51485F5E40077C2E6 /* SneezeRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				2447C7C11485F5E40077C2E6 /* AppDelegate.h */,
-				2447C7C21485F5E40077C2E6 /* AppDelegate.m */,
-				249BB02314872CA30001147E /* MainView.h */,
-				249BB02414872CA30001147E /* MainView.m */,
-				2447C7C41485F5E40077C2E6 /* MainMenu.xib */,
+				24645C3414878A4D00A88D16 /* AppDelegate.h */,
+				24645C3514878A4D00A88D16 /* AppDelegate.m */,
+				24645C3614878A4D00A88D16 /* MainView.h */,
+				24645C3714878A4D00A88D16 /* MainView.m */,
+				24645C3A14878A5D00A88D16 /* MainMenu.xib */,
 				2447C7B61485F5E40077C2E6 /* Supporting Files */,
 			);
+			name = SneezeRecorder;
 			path = MicBlow;
 			sourceTree = "<group>";
 		};
 		2447C7B61485F5E40077C2E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2447C7B71485F5E40077C2E6 /* SneezeRecorder-Info.plist */,
-				2447C7B81485F5E40077C2E6 /* InfoPlist.strings */,
-				2447C7BB1485F5E40077C2E6 /* main.m */,
-				2447C7BD1485F5E40077C2E6 /* SneezeRecorder-Prefix.pch */,
-				2447C7BE1485F5E40077C2E6 /* Credits.rtf */,
+				24645C3D14878A6A00A88D16 /* SneezeRecorder-Info.plist */,
+				24645C4414878A9800A88D16 /* Credits.rtf */,
+				24645C4614878A9800A88D16 /* InfoPlist.strings */,
+				24645C3E14878A6A00A88D16 /* SneezeRecorder-Prefix.pch */,
+				24645C4A14878AA000A88D16 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,9 +164,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2447C7BA1485F5E40077C2E6 /* InfoPlist.strings in Resources */,
-				2447C7C01485F5E40077C2E6 /* Credits.rtf in Resources */,
-				2447C7C61485F5E40077C2E6 /* MainMenu.xib in Resources */,
+				247D7D0514878E1400C7524D /* InfoPlist.strings in Resources */,
+				247D7D0414878E1000C7524D /* Credits.rtf in Resources */,
+				24645C4D14878DB000A88D16 /* main.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,37 +177,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2447C7BC1485F5E40077C2E6 /* main.m in Sources */,
-				2447C7C31485F5E40077C2E6 /* AppDelegate.m in Sources */,
-				249BB02514872CA30001147E /* MainView.m in Sources */,
+				24645C3814878A4D00A88D16 /* AppDelegate.m in Sources */,
+				24645C3914878A4D00A88D16 /* MainView.m in Sources */,
+				24645C4B14878AA000A88D16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2447C7B81485F5E40077C2E6 /* InfoPlist.strings */ = {
+		24645C3A14878A5D00A88D16 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2447C7B91485F5E40077C2E6 /* en */,
+				24645C3B14878A5D00A88D16 /* en */,
 			);
-			name = InfoPlist.strings;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		2447C7BE1485F5E40077C2E6 /* Credits.rtf */ = {
+		24645C4414878A9800A88D16 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2447C7BF1485F5E40077C2E6 /* en */,
+				24645C4514878A9800A88D16 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		2447C7C41485F5E40077C2E6 /* MainMenu.xib */ = {
+		24645C4614878A9800A88D16 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2447C7C51485F5E40077C2E6 /* en */,
+				24645C4714878A9800A88D16 /* en */,
 			);
-			name = MainMenu.xib;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,8 +262,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MicBlow/SneezeRecorder-Prefix.pch";
-				INFOPLIST_FILE = "MicBlow/SneezeRecorder-Info.plist";
+				GCC_PREFIX_HEADER = "SneezeRecorder/SneezeRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SneezeRecorder/SneezeRecorder-Info.plist";
 				PRODUCT_NAME = SneezeRecorder;
 				WRAPPER_EXTENSION = app;
 			};
@@ -270,8 +273,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MicBlow/SneezeRecorder-Prefix.pch";
-				INFOPLIST_FILE = "MicBlow/SneezeRecorder-Info.plist";
+				GCC_PREFIX_HEADER = "SneezeRecorder/SneezeRecorder-Prefix.pch";
+				INFOPLIST_FILE = "SneezeRecorder/SneezeRecorder-Info.plist";
 				PRODUCT_NAME = SneezeRecorder;
 				WRAPPER_EXTENSION = app;
 			};
