@@ -8,7 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@class AVAudioRecorder;
+
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+
+    AVAudioRecorder *recorder;
+    NSTimer *levelTimer;
+    double lowPassResults;
+    double cooldown;
+    double maxpp;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 

@@ -13,6 +13,8 @@
 		2447C7C01485F5E40077C2E6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2447C7BE1485F5E40077C2E6 /* Credits.rtf */; };
 		2447C7C31485F5E40077C2E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2447C7C21485F5E40077C2E6 /* AppDelegate.m */; };
 		2447C7C61485F5E40077C2E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2447C7C41485F5E40077C2E6 /* MainMenu.xib */; };
+		2447C7CD1485F6370077C2E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2447C7CC1485F6370077C2E6 /* AVFoundation.framework */; };
+		249BB02514872CA30001147E /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB02414872CA30001147E /* MainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,17 @@
 		2447C7B21485F5E40077C2E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2447C7B31485F5E40077C2E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2447C7B41485F5E40077C2E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2447C7B71485F5E40077C2E6 /* MicBlow-Info.plist */ = {isa = PBXFileReference; path = "MicBlow-Info.plist"; sourceTree = "<group>"; };
+		2447C7B71485F5E40077C2E6 /* MicBlow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MicBlow-Info.plist"; sourceTree = "<group>"; };
 		2447C7B91485F5E40077C2E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2447C7BB1485F5E40077C2E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2447C7BD1485F5E40077C2E6 /* MicBlow-Prefix.pch */ = {isa = PBXFileReference; path = "MicBlow-Prefix.pch"; sourceTree = "<group>"; };
+		2447C7BD1485F5E40077C2E6 /* MicBlow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MicBlow-Prefix.pch"; sourceTree = "<group>"; };
 		2447C7BF1485F5E40077C2E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2447C7C11485F5E40077C2E6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2447C7C11485F5E40077C2E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2447C7C21485F5E40077C2E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2447C7C51485F5E40077C2E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2447C7CC1485F6370077C2E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		249BB02314872CA30001147E /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		249BB02414872CA30001147E /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2447C7CD1485F6370077C2E6 /* AVFoundation.framework in Frameworks */,
 				2447C7B01485F5E40077C2E6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +52,7 @@
 		2447C7A01485F5E40077C2E6 = {
 			isa = PBXGroup;
 			children = (
+				2447C7CC1485F6370077C2E6 /* AVFoundation.framework */,
 				2447C7B51485F5E40077C2E6 /* MicBlow */,
 				2447C7AE1485F5E40077C2E6 /* Frameworks */,
 				2447C7AC1485F5E40077C2E6 /* Products */,
@@ -84,6 +91,8 @@
 			children = (
 				2447C7C11485F5E40077C2E6 /* AppDelegate.h */,
 				2447C7C21485F5E40077C2E6 /* AppDelegate.m */,
+				249BB02314872CA30001147E /* MainView.h */,
+				249BB02414872CA30001147E /* MainView.m */,
 				2447C7C41485F5E40077C2E6 /* MainMenu.xib */,
 				2447C7B61485F5E40077C2E6 /* Supporting Files */,
 			);
@@ -167,6 +176,7 @@
 			files = (
 				2447C7BC1485F5E40077C2E6 /* main.m in Sources */,
 				2447C7C31485F5E40077C2E6 /* AppDelegate.m in Sources */,
+				249BB02514872CA30001147E /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +296,7 @@
 				2447C7CB1485F5E40077C2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
