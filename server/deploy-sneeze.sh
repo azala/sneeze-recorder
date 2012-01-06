@@ -1,0 +1,1 @@
+sudo rsync --delete -a src/ $WEB/sneeze
